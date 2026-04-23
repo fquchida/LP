@@ -13,7 +13,7 @@ int main(){
         if (temp[i] > maior){
             maior = temp[i];
         }
-        if (temp[i] > menor){
+        if (temp[i] < menor){
             menor = temp[i];
         }
         soma += temp[i];
