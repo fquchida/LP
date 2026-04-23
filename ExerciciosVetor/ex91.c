@@ -9,7 +9,7 @@ int main(){
     for (int i = 0; i < 50; i++){
         for (int a = 0; i < 50; i++){
             if (vet[i] == vet[a] && i != j){
-                if (i < j){
+                if (i < a){
                     break;
                 }
                 printf("\nNumero repetido encontrado, nas posicoes %d, e %d", i, a);
